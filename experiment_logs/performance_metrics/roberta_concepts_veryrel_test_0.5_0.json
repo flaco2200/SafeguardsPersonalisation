@@ -1,0 +1,24 @@
+{
+    "timestamp": "20241113_123244",
+    "model_name": "roberta_concepts",
+    "dataset_name": "veryrel_test",
+    "metrics": {
+        "precision": 0.6872070728589689,
+        "recall": 0.6778209707921833,
+        "f1_score": 0.6824817518248175,
+        "coverage": 1.0,
+        "true positive": 12903,
+        "true negative": 8895,
+        "false positive": 5873,
+        "false negative": 6133
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.5,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 33804,
+    "num_concepts": 5,
+    "device": "cuda"
+}

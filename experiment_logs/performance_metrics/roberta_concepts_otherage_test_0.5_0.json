@@ -1,0 +1,24 @@
+{
+    "timestamp": "20241112_171635",
+    "model_name": "roberta_concepts",
+    "dataset_name": "otherage_test",
+    "metrics": {
+        "precision": 0.6792452830188679,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.6728971962616822,
+        "coverage": 1.0,
+        "true positive": 72,
+        "true negative": 86,
+        "false positive": 34,
+        "false negative": 36
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.5,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 228,
+    "num_concepts": 5,
+    "device": "cuda"
+}

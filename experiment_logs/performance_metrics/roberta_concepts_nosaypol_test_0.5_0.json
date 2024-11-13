@@ -1,0 +1,24 @@
+{
+    "timestamp": "20241113_122551",
+    "model_name": "roberta_concepts",
+    "dataset_name": "nosaypol_test",
+    "metrics": {
+        "precision": 0.6686046511627907,
+        "recall": 0.6161714564052606,
+        "f1_score": 0.641318124207858,
+        "coverage": 1.0,
+        "true positive": 1265,
+        "true negative": 1740,
+        "false positive": 627,
+        "false negative": 788
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.5,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 4420,
+    "num_concepts": 5,
+    "device": "cuda"
+}

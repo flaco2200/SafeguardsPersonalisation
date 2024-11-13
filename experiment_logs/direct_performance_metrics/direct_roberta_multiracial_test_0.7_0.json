@@ -1,0 +1,20 @@
+{
+    "timestamp": "20241106_184259",
+    "model_name": "direct_roberta",
+    "dataset_name": "multiracial_test",
+    "metrics": {
+        "precision": 0.8319327731092437,
+        "recall": 0.47596153846153844,
+        "f1_score": 0.6055045871559632,
+        "coverage": 0.5704500978473581
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.7,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 1022,
+    "num_concepts": 1,
+    "device": "cuda"
+}

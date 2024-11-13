@@ -1,0 +1,24 @@
+{
+    "timestamp": "20241113_124102",
+    "model_name": "roberta_concepts",
+    "dataset_name": "hispanic1_test",
+    "metrics": {
+        "precision": 0.652073732718894,
+        "recall": 0.604270462633452,
+        "f1_score": 0.6272626523827115,
+        "coverage": 1.0,
+        "true positive": 849,
+        "true negative": 1118,
+        "false positive": 453,
+        "false negative": 556
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.5,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 2976,
+    "num_concepts": 5,
+    "device": "cuda"
+}

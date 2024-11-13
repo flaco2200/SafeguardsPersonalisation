@@ -1,0 +1,20 @@
+{
+    "timestamp": "20241105_204535",
+    "model_name": "roberta_concepts",
+    "dataset_name": "black_test",
+    "metrics": {
+        "precision": 0.8870967741935484,
+        "recall": 1.0,
+        "f1_score": 0.9401709401709402,
+        "coverage": 0.03317281968967362
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.9,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 1869,
+    "num_concepts": 19,
+    "device": "cuda"
+}

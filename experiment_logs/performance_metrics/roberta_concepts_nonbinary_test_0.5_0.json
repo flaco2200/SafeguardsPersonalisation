@@ -1,0 +1,24 @@
+{
+    "timestamp": "20241112_172215",
+    "model_name": "roberta_concepts",
+    "dataset_name": "nonbinary_test",
+    "metrics": {
+        "precision": 0.4302721088435374,
+        "recall": 1.0,
+        "f1_score": 0.6016646848989299,
+        "coverage": 1.0,
+        "true positive": 253,
+        "true negative": 0,
+        "false positive": 335,
+        "false negative": 0
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.5,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 588,
+    "num_concepts": 5,
+    "device": "cuda"
+}

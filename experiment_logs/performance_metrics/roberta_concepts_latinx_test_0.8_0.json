@@ -1,0 +1,20 @@
+{
+    "timestamp": "20241105_201051",
+    "model_name": "roberta_concepts",
+    "dataset_name": "latinx_test",
+    "metrics": {
+        "precision": 0.8468468468468469,
+        "recall": 0.8430493273542601,
+        "f1_score": 0.8449438202247191,
+        "coverage": 0.4061224489795918
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.8,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 1470,
+    "num_concepts": 19,
+    "device": "cuda"
+}

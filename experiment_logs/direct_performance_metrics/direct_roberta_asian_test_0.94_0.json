@@ -1,0 +1,20 @@
+{
+    "timestamp": "20241106_185503",
+    "model_name": "direct_roberta",
+    "dataset_name": "asian_test",
+    "metrics": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1_score": 0.8571428571428571,
+        "coverage": 0.02219626168224299
+    },
+    "config": {
+        "batch_size": 32,
+        "decision_threshold": 0.94,
+        "run": 0,
+        "device": "cuda"
+    },
+    "num_samples": 1712,
+    "num_concepts": 1,
+    "device": "cuda"
+}
