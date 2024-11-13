@@ -23,3 +23,6 @@ This repository contains code and data for training, fine-tuning, and evaluating
   - **test_concepts.py**: Tests concept detection classifiers to evaluate their performance.
   - **test_direct.py**: Tests direct prediction classifiers to assess their accuracy.
   - **compare_models.py**: Produces comparative performance plots for both model types across demographic groups.
+ 
+## Note
+The trained weights for both the concepts and direct classifiers are too large to upload with the free version of Git Large File Storage (LFS) on GitHub and are therefore not included in this repository yet.
